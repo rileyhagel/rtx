@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: none;
     padding: none;
-    background-image: linear-gradient(white, red);
+    background-image: linear-gradient(#ffffff, #ff4545);
     background-repeat: no-repeat
     background-size: 100% 100%;
     background-attachment: fixed;
