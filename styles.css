@@ -30,10 +30,6 @@ nav {
     text-align: center;
     font-size: 1.3rem;
 }
-nav a {
-    margin-left: 10px;
-    margin-right: 10px;
-}
 main {
     background-color: white;
     max-width: 60rem;
@@ -46,16 +42,34 @@ h1 {
 p {
     font-size: 1.2rem;
 }
-a {
-    color: goldenrod;
+a:any-link {
+    color: blue;
     text-decoration: underline;
 }
 a:hover {
     text-decoration: none;
 }
 a:active {
-    color: orange;
+    color: red !important;
+}
+a:visited {
+    color: purple;
+}
+nav a:any-link {
+    color: goldenrod;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav a:hover {
+    text-decoration: none;
+}
+nav a:active {
+    color: gold !important;
+}
+nav a:visited {
+    color: goldenrod;
 }
 .current-page {
-    color: orangered;
+    color: orangered !important;
 }
