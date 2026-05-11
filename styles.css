@@ -56,3 +56,6 @@ a:hover {
 a:active {
     color: orange;
 }
+.current-page {
+    color: orangered;
+}
