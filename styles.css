@@ -2,5 +2,10 @@ body {
     font-family: sans-serif;
 }
 header {
-    background-image: linear-gradient(#0066ff, #3333ff)
+    background-image: linear-gradient(#0066ff, #3333ff);
+    max-width: 65rem;
+}
+main {
+    background-color: white;
+    max-width: 65rem;
 }
