@@ -46,3 +46,13 @@ h1 {
 p {
     font-size: 1.2rem;
 }
+a {
+    color: goldenrod;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    color: orange;
+}
